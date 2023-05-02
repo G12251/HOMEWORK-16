@@ -1,0 +1,112 @@
+@media (max-width: 1000px) {
+  .header-container {
+    grid-column-gap: 10px;
+    padding-left: 10px;
+  }
+  .header-right img {
+    width: fit-content;
+  }
+
+  .brands-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: (1fr);
+    display: grid;
+    justify-content: center;
+  }
+  .products-container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .subscribe-container {
+    grid-column-gap: 50px;
+  }
+}
+
+@media (max-width: 900px) {
+  .header-container {
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    width: 90%;
+  }
+  .header-left,
+  .header-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .subscribe-container {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+@media (max-width: 800px) {
+  .subscribe-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  .products-container {
+    grid-gap: 10px;
+  }
+  .brands-container {
+    grid-gap: 10px;
+  }
+  .brands-block {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 700px) {
+  .desktop-hidden {
+    display: block;
+  }
+
+  .mobile-hidden {
+    display: none;
+  }
+  .nav-container {
+    justify-content: space-between;
+    padding: 0 1rem;
+  }
+
+  .brands-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: (1fr 1fr);
+    display: grid;
+    justify-content: center;
+  }
+  .products-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 500px) {
+  .subscribe-container {
+    padding: 8px;
+  }
+
+  .header-right img {
+    width: 300px;
+  }
+}
+@media (max-width: 400px) {
+  .header-left h1 {
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .header-left p {
+    text-align: center;
+  }
+  .search-div, .left-email{
+    width: 380px;
+  }
+  .subscribe-left h1{
+    font-size: 28px;
+  }
+  
+}

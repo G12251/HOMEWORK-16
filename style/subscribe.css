@@ -1,0 +1,86 @@
+.subscribe {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 135px;
+  padding-bottom: 91px;
+}
+
+.subscribe-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 100px;
+  align-content: center;
+  justify-content: center;
+  max-width: 1100px;
+  width: auto;
+  background: #f6f6f6;
+  border-radius: 22px;
+  padding-left: 97px;
+  padding-top: 34px;
+  padding-bottom: 42px;
+}
+.subscribe-left{
+    padding-top: 74px;
+}
+
+.subscribe-left h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #1e1d1d;
+  padding-bottom: 12px;
+}
+.subscribe-left p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #8b8e99;
+  padding-bottom: 12px;
+}
+
+.left-email {
+  width: 443px;
+  height: 60px;
+  background: #ffffff;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+.left-email input {
+  width: 273px;
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125.5%;
+  color: rgba(139, 142, 153, 0.7);
+  padding-left: 30px;
+}
+
+.left-email a {
+  align-items: flex-end;
+  background: #3858d6;
+  border-radius: 9px;
+  text-align: center;
+  padding: 10px 20px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 125.5%;
+  text-align: center;
+  color: #ffffff;
+}
+.subscribe-right{
+    text-align: center;
+}
